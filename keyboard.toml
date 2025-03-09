@@ -55,7 +55,7 @@ keymap = [
 
 [storage]
 
-clear_storage = true
+clear_storage =  true         
 
 [ble]
 enabled = true
