@@ -1,0 +1,294 @@
+{
+    "name": "corne-rmk",
+    "vendorId": "0x4C4B",
+    "productId": "0x4643",
+    "lighting": "none",
+    "matrix": {
+        "rows": 4,
+        "cols": 3
+    },
+    "customKeycodes": [
+        {
+            "name": "BT0",
+            "title": "Bluetooth Channel 0",
+            "shortName": "BT0"
+        },
+        {
+            "name": "BT1",
+            "title": "Bluetooth Channel 1",
+            "shortName": "BT1"
+        },
+        {
+            "name": "BT2",
+            "title": "Bluetooth Channel 2",
+            "shortName": "BT2"
+        },
+        {
+            "name": "BT3",
+            "title": "Bluetooth Channel 3",
+            "shortName": "BT3"
+        },
+        {
+            "name": "BT4",
+            "title": "Bluetooth Channel 4",
+            "shortName": "BT4"
+        },
+        {
+            "name": "BT5",
+            "title": "Bluetooth Channel 5",
+            "shortName": "BT5"
+        },
+        {
+            "name": "BT6",
+            "title": "Bluetooth Channel 6",
+            "shortName": "BT6"
+        },
+        {
+            "name": "BT7",
+            "title": "Bluetooth Channel 7",
+            "shortName": "BT7"
+        },
+        {
+            "name": "NEXT_BT",
+            "title": "Switch to the next Bluetooth channel",
+            "shortName": "Next\nBT"
+        },
+        {
+            "name": "PREV_BT",
+            "title": "Switch to the previous Bluetooth channel",
+            "shortName": "Prev\nBT"
+        },
+        {
+            "name": "CLR_BT",
+            "title": "Clear bond info for current channel",
+            "shortName": "Clear\nBT"
+        },
+        {
+            "name": "SWITCH",
+            "title": "Switch default output mode between USB/BLE",
+            "shortName": "Switch\nOutput"
+        }
+    ],
+    "layouts": {
+        "keymap": [
+            [
+                {
+                    "x": 3
+                },
+                "E",
+                {
+                    "x": 7
+                },
+                "I"
+            ],
+            [
+                {
+                    "y": -0.9,
+                    "x": 2
+                },
+                "W"
+            ],
+            [
+                {
+                    "y": -1,
+                    "x": 4
+                },
+                "R",
+                {
+                    "x": 5
+                },
+                "U",
+                {
+                    "x": 1
+                },
+                "O"
+            ],
+            [
+                {
+                    "y": -0.9000000000000001,
+                    "x": 5
+                },
+                "T",
+                {
+                    "x": 3
+                },
+                "Y"
+            ],
+            [
+                {
+                    "y": -0.8999999999999999
+                },
+                "Tab",
+                "Q",
+                {
+                    "x": 11
+                },
+                "P",
+                "Bksp"
+            ],
+            [
+                {
+                    "y": -0.30000000000000004,
+                    "x": 3
+                },
+                "D",
+                {
+                    "x": 7
+                },
+                "K"
+            ],
+            [
+                {
+                    "y": -0.8999999999999999,
+                    "x": 2
+                },
+                "S",
+                {
+                    "x": 1
+                },
+                "F",
+                {
+                    "x": 5
+                },
+                "J",
+                {
+                    "x": 1
+                },
+                "L"
+            ],
+            [
+                {
+                    "y": -0.9000000000000001,
+                    "x": 5
+                },
+                "G",
+                {
+                    "x": 3
+                },
+                "H"
+            ],
+            [
+                {
+                    "y": -0.9000000000000001,
+                    "a": 0
+                },
+                "Esc\n\n\n\nCtrl",
+                {
+                    "a": 4
+                },
+                "A",
+                {
+                    "x": 11
+                },
+                ":\n;",
+                "\"\n'"
+            ],
+            [
+                {
+                    "y": -0.2999999999999998,
+                    "x": 3
+                },
+                "C",
+                {
+                    "x": 7
+                },
+                "<\n,"
+            ],
+            [
+                {
+                    "y": -0.8999999999999999,
+                    "x": 2
+                },
+                "X",
+                {
+                    "x": 1
+                },
+                "V",
+                {
+                    "x": 5
+                },
+                "M",
+                {
+                    "x": 1
+                },
+                ">\n."
+            ],
+            [
+                {
+                    "y": -0.8999999999999999,
+                    "x": 5
+                },
+                "B",
+                {
+                    "x": 3
+                },
+                "N"
+            ],
+            [
+                {
+                    "y": -0.9000000000000004
+                },
+                "Shift",
+                "Z",
+                {
+                    "x": 11
+                },
+                "?\n/",
+                "Shift"
+            ],
+            [
+                {
+                    "y": -0.19999999999999973,
+                    "x": 3.5
+                },
+                "Alt",
+                {
+                    "x": 6
+                },
+                "Super"
+            ],
+            [
+                {
+                    "r": 15,
+                    "rx": 4.5,
+                    "ry": 4.1,
+                    "y": -0.9999999999999996
+                },
+                "Lower"
+            ],
+            [
+                {
+                    "r": 30,
+                    "rx": 5.4,
+                    "ry": 4.3,
+                    "y": -1.5,
+                    "x": 0.09999999999999964,
+                    "a": 7,
+                    "h": 1.5
+                },
+                ""
+            ],
+            [
+                {
+                    "r": -30,
+                    "rx": 9.6,
+                    "y": -1.5,
+                    "x": -1.0999999999999996,
+                    "a": 4,
+                    "h": 1.5
+                },
+                "Enter"
+            ],
+            [
+                {
+                    "r": -15,
+                    "rx": 10.5,
+                    "ry": 4.1,
+                    "y": -0.9999999999999996,
+                    "x": -1
+                },
+                "Raise"
+            ]
+        ]
+    }
+}
