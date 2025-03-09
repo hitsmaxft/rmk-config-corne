@@ -16,7 +16,7 @@ keymap = [
         ["Tab", "Q", "W", "E", "R", "T",                                            "Y", "U", "I", "O", "P", "Backslash"],
         ["Escape", "MT(A, LCtrl)", "MT(S,LAlt)", "MT(D,LGui)", "MT(F, LShift)",      "G",    "H", "MT(J,RShift)", "MT(K,RGui)", "MT(L, RAlt)", "MT(Semicolon, RCtrl)", "Quote"],
         ["LShift", "Z", "X", "C", "V", "B",                                         "N", "M", "Comma", "Dot", "Slash", "MT(Grave, RShift)"],
-        ["Kc1", "LAlt", "LGui", "MO(1)", "LT(3, Space)", "__",                       "__", "Enter", "MO(2)", "LeftBracket", "RightBracket", "Kc1"]
+        ["__", "__", "__", "Tab", "MO(1)", "LT(3, Space)",                        "Enter", "MO(2)", "LeftBracket", "RightBracket", "Kc1","__"]
     ],
      # LLOWER layer (Layer 2)
      [
