@@ -18,31 +18,31 @@ keymap = [
         ["LShift", "Z", "X", "C", "V", "B",                                         "N", "M", "Comma", "Dot", "Slash", "MT(Grave, RShift)"],
         ["__", "__", "__", "Tab", "MO(1)", "LT(3, Space)",                        "Enter", "MO(2)", "LeftBracket", "RightBracket", "Kc1","__"]
     ],
-     # LLOWER layer (Layer 2)
+     # LLOWER layer (Layer 1)
      [
          ["__", "WM(Kc1, LShift)", "WM(Kc2, LShift)", "WM(Kc3, LShift)", "WM(Kc4, LShift)", "WM(Kc5, LShift)", "WM(Kc6, LShift)", "WM(Kc7, LShift)", "WM(Kc8, LShift)", "WM(Kc9, LShift)", "WM(Kc0, LShift)", "_"],
          ["_", "_", "_", "_", "_", "_",             "Backspace", "WM(Minus, LShift)", "WM(Equal, LShift)", "WM(LeftBracket, LShift)", "WM(RightBracket, LShift)", "_"],
          ["_", "F7", "F8", "F9", "Tab", "F6", "WM(LeftBracket, LShift)", "WM(RightBracket, LShift)", "WM(Comma, LShift)", "WM(Dot, LShift)", "WM(Slash, LShift)", "WM(Grave, LShift)"],
-         ["Kc2", "_", "_", "_", "_", "__", "__", "_", "_", "_", "_", "Kc2"]
+         ["Kc2", "_", "_", "_", "_", "__", "__", "MO(3)", "_", "_", "_", "Kc2"]
      ],
-     #LRAISE layer (Layer 3)
+     #LRAISE layer (Layer 2)
      [
          ["_", "Kc1", "Kc2", "Kc3", "Kc4", "Kc5", "Kc6", "Kc7", "Kc8", "Kc9", "Kc0", "WM(Backslash, LShift)"],
          ["_", "F1", "F2", "F3", "F4", "F5",        "F6", "Minus", "Equal", "LeftBracket", "RightBracket", "_"],
          ["_", "F7", "F8", "F9", "F10", "F11",      "F12", "RightBracket", "Comma", "Dot", "Slash", "Grave"],
-         ["Kc3", "_", "_", "_", "_", "__", "__", "_", "_", "_", "_", "Kc3"]
+         ["Kc3", "_", "_", "_", "MO(3)", "__", "__", "_", "_", "_", "_", "Kc3"]
      ],
     
     
-     # LFUNC layer (Layer 4)
+     # LFUNC layer (Layer 3)
      [
-         ["__", "_", "_", "MouseUp",  "PageUp", "PageDown",                      "_", "MouseWheelUp", "MouseWheelDown", "__", "__", "__"],
+         ["MO(4)", "_", "_", "MouseUp",  "PageUp", "PageDown",                      "__", "MouseWheelUp", "MouseWheelDown", "__", "__", "__"],
          ["_",      "_", "MouseLeft", "MouseDown", "MouseRight","__",              "Left", "Down", "UP", "Right", "__", "__"],
          ["_", "_", "_", "_","Home", "End",                    "MouseBtn1", "MouseBtn2", "Comma", "Dot", "Slash", "RShift"],
          ["Kc4", "_", "_", "_", "_", "__", "__", "_", "_", "_", "_", "Kc4"]
      ],
     
-     # LDEBUG layer (Layer 5)
+     # LDEBUG layer (Layer 4)
      [
          ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_"],
          ["_", "__", "__", "DebugToggle", "__", "F6", "Left", "Down", "UP", "Down", "Semicolon", "Quote"],
@@ -61,7 +61,7 @@ clear_storage =  true
 enabled = true
 
 [behavior]
-enable_hrm = true
+tap_hold = { enable_hrm = true, prior_idle_time = "100ms", hold_timeout = "200ms", post_wait_time = "20ms"}
 
 [split]
 connection = "ble"
