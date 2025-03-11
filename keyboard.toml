@@ -9,14 +9,14 @@ chip = "nrf52840"
 [layout]
 rows = 4
 cols = 12
-layers = 5
+layers = 6
 keymap = [
     # LBASE layer
     [
         ["Tab", "Q", "W", "E", "R", "T",                                            "Y", "U", "I", "O", "P", "Backslash"],
         ["Escape", "MT(A, LCtrl)", "MT(S,LAlt)", "MT(D,LGui)", "MT(F, LShift)",      "G",    "H", "MT(J,RShift)", "MT(K,RGui)", "MT(L, RAlt)", "MT(Semicolon, RCtrl)", "Quote"],
         ["LShift", "Z", "X", "C", "V", "B",                                         "N", "M", "Comma", "Dot", "Slash", "MT(Grave, RShift)"],
-        ["__", "__", "__", "Tab", "MO(1)", "LT(3, Space)",                        "Enter", "MO(2)", "LeftBracket", "RightBracket", "Kc1","__"]
+        ["__", "__", "__", "Tab", "MO(1)", "LT(3, Space)",                        "Enter", "MO(2)", "LeftBracket", "__", "__","__"]
     ],
      # LLOWER layer (Layer 1)
      [
@@ -29,25 +29,32 @@ keymap = [
      [
          ["_", "Kc1", "Kc2", "Kc3", "Kc4", "Kc5", "Kc6", "Kc7", "Kc8", "Kc9", "Kc0", "WM(Backslash, LShift)"],
          ["_", "F1", "F2", "F3", "F4", "F5",        "F6", "Minus", "Equal", "LeftBracket", "RightBracket", "_"],
-         ["_", "F7", "F8", "F9", "F10", "F11",      "F12", "RightBracket", "Comma", "Dot", "Slash", "Grave"],
+         ["_", "F7", "F8", "F9", "F10", "F11",      "F12", "WM(Minus, LShift)", "WM(Equal, LShift)", "WM(LeftBracket, LShift)", "WM(RightBracket, LShift)", "Grave"],
          ["Kc3", "_", "_", "_", "MO(3)", "__", "__", "_", "_", "_", "_", "Kc3"]
      ],
     
-    
-     # LFUNC layer (Layer 3)
+     # ADJ layer (Layer 3)
      [
-         ["MO(4)", "_", "_", "MouseUp",  "PageUp", "PageDown",                      "__", "MouseWheelUp", "MouseWheelDown", "__", "__", "__"],
+         ["MO(5)", "_", "_", "MouseUp",  "PageUp", "PageDown",                      "MouseBtn1", "MouseBtn3","MouseBtn2","MouseWheelUp", "MouseWheelDown", "__"],
+         ["_",      "_", "MouseLeft", "MouseDown", "MouseRight","__",              "Left", "Down", "UP", "Right", "__", "__"],
+         ["_", "_", "_", "_","Home", "End",                                         "MouseBtn1", "MouseBtn2", "__", "__", "__", "__"],
+         ["Kc4", "_", "_", "_", "_", "__", "__", "_", "_", "_", "_", "Kc4"]
+     ],
+    
+     # NAV layer (Layer 4)
+     [
+         ["MO(5)", "_", "_", "MouseUp",  "PageUp", "PageDown",                      "__", "MouseWheelUp", "MouseWheelDown", "__", "__", "__"],
          ["_",      "_", "MouseLeft", "MouseDown", "MouseRight","__",              "Left", "Down", "UP", "Right", "__", "__"],
          ["_", "_", "_", "_","Home", "End",                    "MouseBtn1", "MouseBtn2", "Comma", "Dot", "Slash", "RShift"],
          ["Kc4", "_", "_", "_", "_", "__", "__", "_", "_", "_", "_", "Kc4"]
      ],
     
-     # LDEBUG layer (Layer 4)
+     # LDEBUG layer (Layer 5)
      [
-         ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_"],
-         ["_", "__", "__", "DebugToggle", "__", "F6", "Left", "Down", "UP", "Down", "Semicolon", "Quote"],
-         ["_", "Z", "X", "C", "Home", "Bootloader", "N", "M", "Comma", "Dot", "Slash", "RShift"],
-         ["Kc5", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "Kc5"]
+         ["__", "User0", "User1", "User2", "User3", "_", "_", "_", "_", "_", "_", "_"],
+         ["__", "User10", "__", "DebugToggle", "__", "F6", "Left", "Down", "UP", "Down", "Semicolon", "Quote"],
+         ["__", "__", "__", "__", "Home", "Bootloader", "N", "M", "Comma", "Dot", "Slash", "RShift"],
+         ["__", "__", "__", "Kc5", "_", "_",  "_", "_", "_", "__", "__", "__"]
      ]
 ]
 
