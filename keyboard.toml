@@ -1,6 +1,6 @@
 [keyboard]
 name = "corne-rmk"
-product_name = "corne-rmk"
+product_name = "Corne rmk"
 vendor_id = 0x4c4b
 product_id = 0x4643
 manufacturer = "rmk"
@@ -9,14 +9,14 @@ chip = "nrf52840"
 [layout]
 rows = 4
 cols = 12
-layers = 6
+layers = 7
 keymap = [
-    # LBASE layer
+    # LBASE layer layout 0
     [
         ["Tab", "Q", "W", "E", "R", "T",                                            "Y", "U", "I", "O", "P", "Backslash"],
         ["Escape", "MT(A, LCtrl)", "MT(S,LAlt)", "MT(D,LGui)", "MT(F, LShift)",      "G",    "H", "MT(J,RShift)", "MT(K,RGui)", "MT(L, RAlt)", "MT(Semicolon, RCtrl)", "Quote"],
         ["LShift", "Z", "X", "C", "V", "B",                                         "N", "M", "Comma", "Dot", "Slash", "MT(Grave, RShift)"],
-        ["__", "__", "__", "Tab", "MO(1)", "LT(3, Space)",                        "Enter", "MO(2)", "LeftBracket", "__", "__","__"]
+        ["__", "__", "__", "LT(6,Tab)", "MO(1)", "LT(3, Space)",                        "Enter", "MO(2)", "LeftBracket", "__", "__","__"]
     ],
      # LLOWER layer (Layer 1)
      [
@@ -55,7 +55,14 @@ keymap = [
          ["__", "User10", "__", "DebugToggle", "__", "F6", "Left", "Down", "UP", "Down", "Semicolon", "Quote"],
          ["__", "__", "__", "__", "Home", "Bootloader", "N", "M", "Comma", "Dot", "Slash", "RShift"],
          ["__", "__", "__", "Kc5", "_", "_",  "_", "_", "_", "__", "__", "__"]
-     ]
+     ],
+     # NUM layer (Layer 6)
+     [
+         ["_", "_", "_", "_",  "_", "_",                      "__", "MouseWheelUp", "MouseWheelDown", "__", "__", "__"],
+         ["_",      "_", "_", "_", "_","__",              "Left", "Down", "UP", "Right", "__", "__"],
+         ["_", "_", "_", "_","_", "_",                    "MouseBtn1", "MouseBtn2", "Comma", "Dot", "Slash", "RShift"],
+         ["_", "_", "_", "_", "_", "__", "__", "_", "_", "_", "_", "_"]
+     ],
 ]
 
 
