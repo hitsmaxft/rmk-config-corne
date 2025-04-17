@@ -92,7 +92,7 @@ keys = """
 
 [storage]
 
-clear_storage =  true         
+clear_storage =  false
 
 [ble]
 enabled = true

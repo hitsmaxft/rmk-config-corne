@@ -1,5 +1,5 @@
 [package]
-name = "corne-rmk"
+name = "gynus35-rmk"
 version = "0.1.0"
 authors = ["Haobo Gu <haobogu@outlook.com>"]
 description = "Keyboard firmware written in Rust"
