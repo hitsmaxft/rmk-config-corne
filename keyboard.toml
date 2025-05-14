@@ -124,7 +124,7 @@ ble_addr = [0x7e, 0xfe, 0x73, 0x9e, 0x66, 0xe3]
 
 [split.peripheral.matrix]
 ## promicro pin: 4 5 6 7 
-input_pins = ["P0_22", "P0_24", "P1_00", "P0_11"]
+input_pins = ["P1_00", "P0_11", "P1_04", "P1_06"]
 #output_pins = [
 #    "P1_11",
 #    "P1_13", 
